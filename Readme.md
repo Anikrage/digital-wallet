@@ -1,73 +1,55 @@
-💸 Digital Wallet & Fund Transfer System
+💸 Digital Wallet & Fund Transfer Backend
 
-A robust, production-ready backend for digital wallets—built with Spring Boot, PostgreSQL, Docker, and Maven.
-Seamlessly supports peer-to-peer transfers, atomic transactions, real-time balance checks, and secure RESTful APIs.
-🚀 Features
+A modular, production-ready digital wallet backend built with Spring Boot, PostgreSQL, Docker, and Maven. Supports seamless peer-to-peer transfers, atomic transactions, real-time balance checks, and secure RESTful APIs.
+📦 Modules
 
-Instant Peer-to-Peer Transfers: Move funds between wallets with ACID-compliant safety.
+    User API — Manage users and onboarding
 
-Atomic Transactions: No lost money, even under heavy concurrency.
+    Wallet API — Create wallets, add funds, check balance
 
-Comprehensive API Suite: Create users, open wallets, transfer funds, check balances, and view transaction history.
+    Transfer API — Peer-to-peer fund transfers with ACID safety
 
-Event-Driven Architecture: Ready for Kafka integration for real-time notifications and scalable microservices.
+    Transaction API — View wallet transaction history
 
-Production-Grade Setup: Containerized with Docker Compose for easy local or cloud deployment.
+    API Docs — Interactive Swagger/OpenAPI documentation
 
-Swagger/OpenAPI Docs: Explore and test APIs interactively.
+🛠️ Technologies
 
-Built-in Validation & Error Handling: Secure, predictable, and developer-friendly.
+    Spring Boot 3 (Java 17)
 
-🛠️ Tech Stack
+    PostgreSQL
 
-Backend: Java 17, Spring Boot 3
-Database: PostgreSQL
-Build: Maven
-Containerization: Docker & Docker Compose
-API Docs: Swagger / OpenAPI
+    Docker & Docker Compose
 
-⚡ Quickstart
+    Maven
 
-Clone the repo
-git clone https://github.com/Anikrage/digital-wallet.git
+    Swagger/OpenAPI
 
+    (Optional: Kafka-ready for event-driven extensions)
+
+🚀 Getting Started
+🔧 Prerequisites
+
+    Java 17+
+
+    Maven
+
+    Docker
+
+🏁 Quickstart
+
+bash
+git clone https://github.com/<your-username>/digital-wallet.git
 cd digital-wallet
-
-Build & run with Docker Compose
-
 docker compose up --build
 
-Access API docs
-open http://localhost:8080/swagger-ui.html
+    Access API docs: http://localhost:8080/swagger-ui.html
 
-📚 API Highlights
+✍️ Author
 
-POST /api/users — Create a user
+Anik
+GitHub: [https://github.com/Anikrage]
 
-POST /api/wallets/create — Create a wallet for a user
+    Built for reliability, scalability, and real-world financial use cases.
+    Ready to power your next fintech innovation!
 
-POST /api/wallets/{walletId}/add — Add money to a wallet
-
-POST /api/wallets/transfer — Peer-to-peer transfer
-
-GET /api/wallets/{walletId}/balance — Check wallet balance
-
-GET /api/wallets/{walletId}/transactions — View transaction history
-
-🧩 How It Works
-
-ACID Transactions: All fund transfers are atomic and consistent, even with simultaneous requests.
-
-Concurrency Control: Optimistic and pessimistic locking strategies prevent race conditions.
-
-Input Validation: Ensures only valid, secure data enters the system.
-
-Easy Integration: RESTful APIs and Swagger docs make it simple to connect web, mobile, or other services.
-
-🏆 Why This Project?
-
-Built for real-world financial platforms, this backend demonstrates scalable architecture, clean code, and production best-practices—ready for your next fintech innovation!
-
-Ready to build the next generation of digital payments? Fork, clone, and launch!
-
-Made with ☕ and 💡 by [Anikrage]
