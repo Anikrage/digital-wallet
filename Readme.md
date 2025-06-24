@@ -64,19 +64,6 @@ Input Validation: Ensures only valid, secure data enters the system.
 
 Easy Integration: RESTful APIs and Swagger docs make it simple to connect web, mobile, or other services.
 
-📦 Project Structure
-
-text
-src/
- ├── main/
- │    ├── java/com/digitalwallet/...
- │    └── resources/application.properties
- └── test/
-      └── java/com/digitalwallet/...
-Dockerfile
-docker-compose.yml
-pom.xml
-
 🏆 Why This Project?
 
 Built for real-world financial platforms, this backend demonstrates scalable architecture, clean code, and production best-practices—ready for your next fintech innovation!
