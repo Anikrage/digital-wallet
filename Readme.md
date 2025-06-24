@@ -38,9 +38,6 @@ A modular, production-ready digital wallet backend built with Spring Boot, Postg
 
 🏁 Quickstart
 
-bash
-    git clone https://github.com/Anikrage/digital-wallet.git
-
     cd digital-wallet
 
     docker compose up --build
