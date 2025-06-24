@@ -8,4 +8,5 @@ cat > .gitignore <<EOF
 *.DS_Store
 .env
 EOF
-.vscode
+.vscode/
+
