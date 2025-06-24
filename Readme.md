@@ -1,6 +1,7 @@
 💸 Digital Wallet & Fund Transfer Backend
 
 A modular, production-ready digital wallet backend built with Spring Boot, PostgreSQL, Docker, and Maven. Supports seamless peer-to-peer transfers, atomic transactions, real-time balance checks, and secure RESTful APIs.
+
 📦 Modules
 
     User API — Manage users and onboarding
