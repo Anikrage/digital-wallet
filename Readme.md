@@ -30,6 +30,7 @@ API Docs: Swagger / OpenAPI
 
 Clone the repo
 git clone https://github.com/Anikrage/digital-wallet.git
+
 cd digital-wallet
 
 Build & run with Docker Compose
@@ -41,10 +42,15 @@ open http://localhost:8080/swagger-ui.html
 📚 API Highlights
 
 POST /api/users — Create a user
+
 POST /api/wallets/create — Create a wallet for a user
+
 POST /api/wallets/{walletId}/add — Add money to a wallet
+
 POST /api/wallets/transfer — Peer-to-peer transfer
+
 GET /api/wallets/{walletId}/balance — Check wallet balance
+
 GET /api/wallets/{walletId}/transactions — View transaction history
 
 🧩 How It Works
