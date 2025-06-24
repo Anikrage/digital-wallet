@@ -34,6 +34,7 @@ git clone https://github.com/Anikrage/digital-wallet.git
 cd digital-wallet
 
 Build & run with Docker Compose
+
 docker compose up --build
 
 Access API docs
